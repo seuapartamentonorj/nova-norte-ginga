@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento Nova Norte Ginga</title>
+    <style>
+        body {
+            background-color: #F0F0F0;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #002B5B;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .highlight, .gallery, .form-section, .about {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .highlight {
+            background-color: #005B96;
+            color: white;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .form-section {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+        .form-section input, .form-section textarea {
+            display: block;
+            width: calc(100% - 20px);
+            margin: 10px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-section button {
+            background-color: #FFA500;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            margin: auto;
+            display: block;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lançamento Nova Norte Ginga</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#details">Detalhes do Empreendimento</a>
+            <a href="#images">Imagens</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section class="highlight">
+        <h2>Conheça o novo lançamento da Construtora Cury no coração da Zona Norte!</h2>
+        <p>Localização privilegiada, apartamentos modernos e lazer completo para sua família.</p>
+    </section>
+
+    <section class="video-container">
+        <video width="80%" controls>
+            <source src="https://cury.net/storage/videos/products/gallery/phppCI4S5.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+    </section>
+
+    <section id="details">
+        <h2>Detalhes do Empreendimento</h2>
+        <p>Apartamentos de 1, 2 e 3 quartos com opções de suíte e Garden.</p>
+        <p>Área de lazer: Piscina, Pet place, Churrasqueira, Salão de festas, Praça de convivência, Coworking, Salão de jogos, Bicicletário, Playground.</p>
+        <p>Compre e ganhe piso laminado nos quartos.</p>
+    </section>
+
+    <section id="images" class="gallery">
+        <h2>Galeria de Imagens</h2>
+        <img src="https://cury.net/storage/images/products/gallery/6661fe343a1b4.jpeg" alt="Imagem 1">
+        <img src="https://cury.net/storage/images/products/gallery/6661fe0ff1249.jpeg" alt="Imagem 2">
+        <img src="https://cury.net/storage/images/products/gallery/6661fdf574b6f.jpeg" alt="Imagem 3">
+        <img src="https://cury.net/storage/images/products/gallery/6661fe343a1b4.jpeg" alt="Imagem 4">
+        <img src="https://cury.net/storage/images/products/gallery/6661fe0ff1249.jpeg" alt="Imagem 5">
+    </section>
+
+    <section id="contact" class="form-section">
+        <h2>Cadastre-se e saiba mais sobre o Nova Norte Ginga</h2>
+        <form>
+            <input type="text" name="name" placeholder="Nome" required>
+            <input type="tel" name="phone" placeholder="Telefone" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <textarea name="message" placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section class="about">
+        <h2>Sobre a Corretora</h2>
+        <p>Gabriele, especialista em lançamentos imobiliários.</p>
+        <p>CRECI: 93.815 | Telefone: 2199424-5035 | E-mail: gabr.rj@curyvendas.com.br</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Construtora Cury</p>
+    </footer>
+</body>
+</html>
